@@ -1,0 +1,114 @@
+#control-up {
+  width: 15px;
+  height: 15px;
+  top: 250px;
+  left: 40px; 
+  position: absolute;
+  background-image: url('images/up.png');
+  background-size: cover;
+  }
+#control-down {
+  width: 15px;
+  height: 15px;
+  top: 270px;
+  left: 40px ;
+  position: absolute;
+  background-image: url('images/down.png');
+  background-size: cover;
+  }
+#control-left {
+  width: 15px;
+  height: 15px;
+  top: 270px;
+  left: 20px ;
+  position: absolute;
+  background-image: url('images/left.png');
+  background-size: cover;
+  } 
+#control-right {
+  width: 15px;
+  height: 15px;
+  top: 270px;
+  left: 60px ;
+  position: absolute;
+  background-image: url('images/right.png');
+  background-size: cover;
+  } 
+#control-jump {
+  width: 20px;
+  height: 20px;
+  top: 270px;
+  left: 240px ;
+  position: absolute;
+  background-image: url('images/1.jpg');
+  background-size: cover;
+  } 
+#control-attack {
+  width: 20px;
+  height: 20px;
+  top: 270px;
+  left: 270px;
+  position: absolute;
+  background-image: url('images/attack.png');
+  background-size: cover;
+  } 
+#start{
+  width: 125px;
+  height: 60px;
+  top: 110px;
+  left: 85px;
+  position: absolute;
+  background-image: url('images/start.png');
+  background-size: cover;
+}
+#game {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	background: url('images/background.png');
+	background-size: 150%;
+	background-position: -120px 800px;
+  overflow: hidden;
+}
+#player {
+	width: 25px;
+	position: absolute;
+	top: 2px;
+  left: 0px;
+}
+.bullet{
+  position: absolute;
+  top: 12px;
+  left: 20px;                               
+  width: 10px;
+  display: none;
+}
+#bullets {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+}
+.enemy{
+  width: 23px;
+  position: absolute;
+  top: 2px;
+}
+#hbar-contain{
+  width: 100px;
+  height: 15px;
+  border: 1px solid #000000;
+}
+#hbar-content{
+  width: 100%;
+  height: 15px;
+  background-color: #0EF9DD;
+}
+#gameover{
+    width: 100px;
+    height: 30px;
+    top: 140px;
+    left: 100px;
+    position: absolute;
+    background-color: #ffff00;
+    display: none;
+}

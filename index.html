@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> GAME </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div id="game"> 
+		<img id="player" src="images/player.png">
+		<div id="bullets"></div>
+		<div id="enemy"></div>
+		<div id="hud">
+		<div id="score">Score: 0</div>
+		<div id="Hscore">High Score:0</div>
+		<div id="Hbar">
+			<div id="hbar-contain">
+				<div id="hbar-content">
+				</div>
+			</div> 
+		</div>
+		</div>
+	<div id="controls"> 
+		<button id="control-up" onclick="moveUp()"></button>
+		<button id="control-down" onclick="moveDown()"></button>
+		<button id="control-left" onclick="moveLeft()"></button>
+		<button id="control-right" onclick="moveRight()"></button>	
+		<button id="control-jump" onclick="jump()"></button>
+		<button id="control-attack" onclick="attack()"></button>
+		<button id="start" onclick="start()"></button>
+	</div>	
+			<button id="gameover" onclick='location.reload()'> Game Over </button>
+	</div>
+
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
